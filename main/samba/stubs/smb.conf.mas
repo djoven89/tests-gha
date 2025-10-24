@@ -57,7 +57,7 @@ use EBox::Gettext;
 
     log level = 3
     log file = /var/log/samba/samba.log
-    max log size = 100000
+    max log size = 500000
 
 % if ($radius) {
     lanman auth = yes
